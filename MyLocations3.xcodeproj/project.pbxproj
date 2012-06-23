@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		3E5545201595AC780042E748 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E55451F1595AC780042E748 /* UIKit.framework */; };
 		3E5545221595AC780042E748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5545211595AC780042E748 /* Foundation.framework */; };
-		3E5545241595AC780042E748 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5545231595AC780042E748 /* CoreGraphics.framework */; };
 		3E55452A1595AC780042E748 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E5545281595AC780042E748 /* InfoPlist.strings */; };
 		3E55452C1595AC780042E748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E55452B1595AC780042E748 /* main.m */; };
 		3E5545301595AC780042E748 /* LocationsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E55452F1595AC780042E748 /* LocationsAppDelegate.m */; };
 		3E5545331595AC780042E748 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5545311595AC780042E748 /* MainStoryboard.storyboard */; };
-		3E5545361595AC780042E748 /* LocationsFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5545351595AC780042E748 /* LocationsFirstViewController.m */; };
+		3E5545361595AC780042E748 /* CurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5545351595AC780042E748 /* CurrentLocationViewController.m */; };
 		3E5545381595AC780042E748 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5545371595AC780042E748 /* first.png */; };
 		3E55453A1595AC780042E748 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5545391595AC780042E748 /* first@2x.png */; };
 		3E55453D1595AC780042E748 /* LocationsSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E55453C1595AC780042E748 /* LocationsSecondViewController.m */; };
 		3E55453F1595AC780042E748 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E55453E1595AC780042E748 /* second.png */; };
 		3E5545411595AC780042E748 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5545401595AC780042E748 /* second@2x.png */; };
+		3E55454A1595B0770042E748 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5545491595B0770042E748 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +27,22 @@
 		3E55451F1595AC780042E748 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E5545211595AC780042E748 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E5545231595AC780042E748 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3E5545271595AC780042E748 /* MyLocations3-Info.plist */ = {isa = PBXFileReference; path = "MyLocations3-Info.plist"; sourceTree = "<group>"; };
+		3E5545271595AC780042E748 /* MyLocations3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLocations3-Info.plist"; sourceTree = "<group>"; };
 		3E5545291595AC780042E748 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E55452B1595AC780042E748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E55452D1595AC780042E748 /* MyLocations3-Prefix.pch */ = {isa = PBXFileReference; path = "MyLocations3-Prefix.pch"; sourceTree = "<group>"; };
-		3E55452E1595AC780042E748 /* LocationsAppDelegate.h */ = {isa = PBXFileReference; path = LocationsAppDelegate.h; sourceTree = "<group>"; };
+		3E55452D1595AC780042E748 /* MyLocations3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLocations3-Prefix.pch"; sourceTree = "<group>"; };
+		3E55452E1595AC780042E748 /* LocationsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationsAppDelegate.h; sourceTree = "<group>"; };
 		3E55452F1595AC780042E748 /* LocationsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsAppDelegate.m; sourceTree = "<group>"; };
 		3E5545321595AC780042E748 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3E5545341595AC780042E748 /* LocationsFirstViewController.h */ = {isa = PBXFileReference; path = LocationsFirstViewController.h; sourceTree = "<group>"; };
-		3E5545351595AC780042E748 /* LocationsFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsFirstViewController.m; sourceTree = "<group>"; };
+		3E5545341595AC780042E748 /* CurrentLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentLocationViewController.h; sourceTree = "<group>"; };
+		3E5545351595AC780042E748 /* CurrentLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationViewController.m; sourceTree = "<group>"; };
 		3E5545371595AC780042E748 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		3E5545391595AC780042E748 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		3E55453B1595AC780042E748 /* LocationsSecondViewController.h */ = {isa = PBXFileReference; path = LocationsSecondViewController.h; sourceTree = "<group>"; };
+		3E55453B1595AC780042E748 /* LocationsSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationsSecondViewController.h; sourceTree = "<group>"; };
 		3E55453C1595AC780042E748 /* LocationsSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsSecondViewController.m; sourceTree = "<group>"; };
 		3E55453E1595AC780042E748 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		3E5545401595AC780042E748 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3E5545491595B0770042E748 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E55454A1595B0770042E748 /* CoreLocation.framework in Frameworks */,
 				3E5545201595AC780042E748 /* UIKit.framework in Frameworks */,
 				3E5545221595AC780042E748 /* Foundation.framework in Frameworks */,
-				3E5545241595AC780042E748 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +79,7 @@
 		3E55451E1595AC780042E748 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E5545491595B0770042E748 /* CoreLocation.framework */,
 				3E55451F1595AC780042E748 /* UIKit.framework */,
 				3E5545211595AC780042E748 /* Foundation.framework */,
 				3E5545231595AC780042E748 /* CoreGraphics.framework */,
@@ -91,8 +93,8 @@
 				3E55452E1595AC780042E748 /* LocationsAppDelegate.h */,
 				3E55452F1595AC780042E748 /* LocationsAppDelegate.m */,
 				3E5545311595AC780042E748 /* MainStoryboard.storyboard */,
-				3E5545341595AC780042E748 /* LocationsFirstViewController.h */,
-				3E5545351595AC780042E748 /* LocationsFirstViewController.m */,
+				3E5545341595AC780042E748 /* CurrentLocationViewController.h */,
+				3E5545351595AC780042E748 /* CurrentLocationViewController.m */,
 				3E5545371595AC780042E748 /* first.png */,
 				3E5545391595AC780042E748 /* first@2x.png */,
 				3E55453B1595AC780042E748 /* LocationsSecondViewController.h */,
@@ -184,7 +186,7 @@
 			files = (
 				3E55452C1595AC780042E748 /* main.m in Sources */,
 				3E5545301595AC780042E748 /* LocationsAppDelegate.m in Sources */,
-				3E5545361595AC780042E748 /* LocationsFirstViewController.m in Sources */,
+				3E5545361595AC780042E748 /* CurrentLocationViewController.m in Sources */,
 				3E55453D1595AC780042E748 /* LocationsSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
