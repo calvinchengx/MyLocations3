@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4254E9159AB28F008E23BB /* LocationDetailsViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4254E8159AB28F008E23BB /* LocationDetailsViewControllerViewController.m */; };
 		3E5545201595AC780042E748 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E55451F1595AC780042E748 /* UIKit.framework */; };
 		3E5545221595AC780042E748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5545211595AC780042E748 /* Foundation.framework */; };
 		3E55452A1595AC780042E748 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E5545281595AC780042E748 /* InfoPlist.strings */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E4254E7159AB28F008E23BB /* LocationDetailsViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailsViewControllerViewController.h; sourceTree = "<group>"; };
+		3E4254E8159AB28F008E23BB /* LocationDetailsViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailsViewControllerViewController.m; sourceTree = "<group>"; };
 		3E55451B1595AC780042E748 /* MyLocations3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E55451F1595AC780042E748 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E5545211595AC780042E748 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,8 @@
 				3E5545311595AC780042E748 /* MainStoryboard.storyboard */,
 				3E5545341595AC780042E748 /* CurrentLocationViewController.h */,
 				3E5545351595AC780042E748 /* CurrentLocationViewController.m */,
+				3E4254E7159AB28F008E23BB /* LocationDetailsViewControllerViewController.h */,
+				3E4254E8159AB28F008E23BB /* LocationDetailsViewControllerViewController.m */,
 				3E5545371595AC780042E748 /* first.png */,
 				3E5545391595AC780042E748 /* first@2x.png */,
 				3E55453B1595AC780042E748 /* LocationsSecondViewController.h */,
@@ -188,6 +193,7 @@
 				3E5545301595AC780042E748 /* LocationsAppDelegate.m in Sources */,
 				3E5545361595AC780042E748 /* CurrentLocationViewController.m in Sources */,
 				3E55453D1595AC780042E748 /* LocationsSecondViewController.m in Sources */,
+				3E4254E9159AB28F008E23BB /* LocationDetailsViewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				3E5545461595AC780042E748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
