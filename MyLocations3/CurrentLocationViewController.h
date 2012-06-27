@@ -20,8 +20,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *tagButton;
 @property (strong, nonatomic) IBOutlet UIButton *getButton;
 
-
-
 - (IBAction)getLocation:(id)sender;
 
 

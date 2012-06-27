@@ -62,9 +62,6 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="tagButton:" destination="2" eventType="touchUpInside" id="jef-A8-cWA"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BDG-jW-GtR">
                                 <rect key="frame" x="89" y="296" width="142" height="37"/>
@@ -81,10 +78,10 @@
                                     <action selector="getLocation:" destination="2" eventType="touchUpInside" id="Wx1-Fq-Rjq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="(address goes here)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Gyd-SX-GiA">
-                                <rect key="frame" x="20" y="157" width="153" height="50"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="(adress goes here)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" id="nMd-Je-lHN">
+                                <rect key="frame" x="20" y="159" width="258" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -93,8 +90,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="kJl-zQ-daU"/>
                     <connections>
-                        <outlet property="addressLabel" destination="Gyd-SX-GiA" id="zik-Lh-Z68"/>
-                        <outlet property="getButton" destination="uoS-Xx-kJp" id="ER4-3Y-tSt"/>
+                        <outlet property="addressLabel" destination="nMd-Je-lHN" id="f4P-3d-RhC"/>
+                        <outlet property="getButton" destination="BDG-jW-GtR" id="cyD-PI-CaM"/>
                         <outlet property="latitudeLabel" destination="JtO-U1-Wnj" id="dtX-dW-G2A"/>
                         <outlet property="longitudeLabel" destination="dor-JP-5th" id="wea-oE-nM6"/>
                         <outlet property="messageLabel" destination="20" id="HDI-1b-cVT"/>
